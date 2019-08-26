@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+
+.icons {
+  display: inline-block;
+  width: 128px;
+  height: 188px;
+  overflow: hidden;
+  //background-image:
+  background-color: #fff;
+  background-repeat: repeat-y;
+  will-change: backgroundPosition;
+  transition: 0.3s background-position ease-in-out;
+  padding: 0 80px;
+  transform: translateZ(0);
+}
+
+.icons:nth-child(2) {
+  margin: 0 10px;
+}
+
+.wheel-container {
+  width: auto;
+}
+
+.wheel-container::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  top: 45%;
+  transform: translateY(-50%);
+  right: 1px;
+  left: 1px;
+  background: rgba(25, 25, 112, 0.5);
+}
+
+.card {
+  border: 2px solid gray;
+}
+
+.main-card {
+  width: auto;
+  margin: auto;
+  background-color: $facebook !important;
+}
+
+.body {
+  min-width: 580px !important;
+}

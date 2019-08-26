@@ -1,0 +1,137 @@
+/*!
+
+ =========================================================
+ * Black Dashboard Pro React - v1.0.0 based on Black Dashboard Pro - v1.0.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/slot-machine
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+// Core
+@import "slot-machine/custom/functions";
+@import "slot-machine/bootstrap/functions";
+
+@import "slot-machine/custom/variables";
+@import "slot-machine/bootstrap/variables";
+
+@import "slot-machine/custom/mixins";
+@import "slot-machine/bootstrap/mixins";
+
+// Bootstrap components
+@import "slot-machine/bootstrap/root";
+@import "slot-machine/bootstrap/reboot";
+@import "slot-machine/bootstrap/type";
+@import "slot-machine/bootstrap/images";
+@import "slot-machine/bootstrap/code";
+@import "slot-machine/bootstrap/grid";
+@import "slot-machine/bootstrap/tables";
+@import "slot-machine/bootstrap/forms";
+@import "slot-machine/bootstrap/buttons";
+@import "slot-machine/bootstrap/transitions";
+@import "slot-machine/bootstrap/dropdown";
+@import "slot-machine/bootstrap/button-group";
+@import "slot-machine/bootstrap/input-group";
+@import "slot-machine/bootstrap/custom-forms";
+@import "slot-machine/bootstrap/nav";
+@import "slot-machine/bootstrap/navbar";
+@import "slot-machine/bootstrap/card";
+@import "slot-machine/bootstrap/breadcrumb";
+@import "slot-machine/bootstrap/pagination";
+@import "slot-machine/bootstrap/badge";
+@import "slot-machine/bootstrap/jumbotron";
+@import "slot-machine/bootstrap/alert";
+@import "slot-machine/bootstrap/progress";
+@import "slot-machine/bootstrap/media";
+@import "slot-machine/bootstrap/list-group";
+@import "slot-machine/bootstrap/close";
+@import "slot-machine/bootstrap/modal";
+@import "slot-machine/bootstrap/tooltip";
+@import "slot-machine/bootstrap/popover";
+@import "slot-machine/bootstrap/carousel";
+@import "slot-machine/bootstrap/utilities";
+@import "slot-machine/bootstrap/print";
+
+// Custom components
+@import "slot-machine/custom/reboot.scss";
+@import "slot-machine/custom/global.scss";
+@import "slot-machine/custom/utilities.scss";
+@import "slot-machine/custom/alerts.scss";
+@import "slot-machine/custom/avatars.scss";
+@import "slot-machine/custom/badge.scss";
+@import "slot-machine/custom/buttons.scss";
+@import "slot-machine/custom/close.scss";
+@import "slot-machine/custom/custom-forms.scss";
+@import "slot-machine/custom/dropdown.scss";
+@import "slot-machine/custom/footer.scss";
+@import "slot-machine/custom/forms.scss";
+@import "slot-machine/custom/grid.scss";
+@import "slot-machine/custom/icons.scss";
+@import "slot-machine/custom/images.scss";
+@import "slot-machine/custom/input-group.scss";
+@import "slot-machine/custom/info-areas.scss";
+@import "slot-machine/custom/modal.scss";
+@import "slot-machine/custom/nav.scss";
+@import "slot-machine/custom/navbar.scss";
+@import "slot-machine/custom/pagination.scss";
+@import "slot-machine/custom/tabs.scss";
+@import "slot-machine/custom/pills.scss";
+@import "slot-machine/custom/popover.scss";
+@import "slot-machine/custom/progress.scss";
+@import "slot-machine/custom/type.scss";
+@import "slot-machine/custom/tables";
+@import "slot-machine/custom/checkboxes-radio";
+@import "slot-machine/custom/fixed-plugin";
+@import "slot-machine/custom/sidebar-and-main-panel.scss";
+@import "slot-machine/custom/misc.scss";
+@import "slot-machine/custom/rtl.scss";
+@import "slot-machine/custom/timeline.scss";
+
+// Vendor / Plugins
+@import "slot-machine/custom/vendor/plugin-datetimepicker.scss";
+@import "slot-machine/custom/vendor/plugin-nouislider.scss";
+@import "slot-machine/custom/vendor/plugin-fullcalendar.scss";
+@import "slot-machine/custom/vendor/plugin-sweetalert2.scss";
+@import "slot-machine/custom/vendor/plugin-bootstrap-switch.scss";
+@import "slot-machine/custom/vendor/plugin-bootstrap-select.scss";
+@import "slot-machine/custom/vendor/plugin-jasny-fileupload.scss";
+@import "slot-machine/custom/vendor/plugin-tagsinput.scss";
+@import "slot-machine/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "slot-machine/custom/vendor/plugin-jquery.jvectormap.scss";
+@import "slot-machine/custom/vendor/plugin-datatables.net.scss";
+@import "slot-machine/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "slot-machine/custom/vendor/plugin-card-wizard.scss";
+
+// example pages and sections
+@import "slot-machine/custom/example-pages.scss";
+
+// light mode
+@import "slot-machine/custom/white-content.scss";
+
+// Cards
+@import "slot-machine/custom/card";
+@import "slot-machine/custom/cards/card-chart";
+@import "slot-machine/custom/cards/card-map";
+@import "slot-machine/custom/cards/card-user";
+@import "slot-machine/custom/cards/card-task";
+@import "slot-machine/custom/cards/card-animation-on-hover";
+@import "slot-machine/custom/cards/card-collapse";
+@import "slot-machine/custom/cards/card-contributions";
+@import "slot-machine/custom/cards/card-lock";
+@import "slot-machine/custom/cards/card-pricing";
+@import "slot-machine/custom/cards/card-profile";
+@import "slot-machine/custom/cards/card-plain";
+@import "slot-machine/custom/cards/card-register";
+@import "slot-machine/custom/cards/card-stats";
+@import "slot-machine/custom/cards/card-subcategories";
+@import "slot-machine/custom/cards/card-testimonials";
+@import "slot-machine/custom/cards/card-wizard";
+
+// React Differences
+@import "slot-machine/react/react-differences";
